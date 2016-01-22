@@ -1,0 +1,10 @@
+[package]
+name = "bsdiff"
+version = "0.1.0"
+authors = ["KokaKiwi <kokakiwi@kokakiwi.net>"]
+description = "Bindings to the bsdiff algorithm library."
+license = "MIT"
+
+[dependencies]
+bsdiff-sys = "0.1.0"
+libc = "0.2.0"
